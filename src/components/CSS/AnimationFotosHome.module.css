@@ -1,0 +1,78 @@
+.animation_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.divFotos {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+.animationFoto01 {
+    width: 400px;
+    height: 400px;
+    border-left-style: groove;
+    border-width: 20px;
+    border-color: #91d8f7;
+    border-radius: 0px 200px 0px 200px ;
+    -moz-border-radius: 0px 200px 0px 200px ;
+    -webkit-border-radius: 0px 200px 0px 200px ;
+}
+.animationFoto02 {
+    width: 400px;
+    height: 400px;
+    border-left-style: groove;
+    border-width: 20px;
+    border-color: #91d8f7;
+    border-radius: 200px 200px 0px 200px ;
+    -moz-border-radius: 200px 200px 0px 200px ;
+    -webkit-border-radius: 200px 200px 0px 200px ;
+}
+.animationFoto03 {
+    width: 400px;
+    height: 400px;
+    border-left-style: groove;
+    border-width: 20px;
+    border-color: #91d8f7;
+    border-radius: 200px 0px 200px 0px ;
+    -moz-border-radius: 200px 0px 200px 0px ;
+    -webkit-border-radius: 200px 0px 200px 0px ;
+}
+.animationFoto04 {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px 0px 200px 0px ;
+    -moz-border-radius: 200px 0px 200px 0px ;
+    -webkit-border-radius: 200px 0px 200px 0px ;
+}
+.animationFoto05 {
+    width: 400px;
+    height: 400px;
+    border-radius: 0px 200px 0px 200px ;
+    -moz-border-radius: 0px 200px 0px 200px ;
+    -webkit-border-radius: 0px 200px 0px 200px ;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0);
+    }    
+    to {
+        transform: rotate(0);
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(1600px);
+    }    
+    to {
+        transform:  translateX(-1600px);
+    }
+}

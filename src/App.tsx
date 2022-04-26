@@ -1,25 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import '../src/components/CSS/ResetStyles.module.css';
+import '../src/components/CSS/Global.module.css';
+import styles from './components/CSS/App.module.css';
+import Container from './components/layouts/Container';
+import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
+import Company from './components/pages/Company';
+import Policies from './components/pages/Policies';
+import Navbar from './components/layouts/Navbar';
+import Blank from './components/pages/Blank';
+import Footer from './components/layouts/Footer';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Container customClass="home" name="Container_App"> 
+        <Navbar />
+        <Routes >
+          <Route
+            path="/home" 
+            element={<Home/>} 
+          />
+          <Route 
+            path='/'
+            element={<Blank />}
+          />
+          <Route 
+            path="/company" 
+            element={<Company/>} 
+          />
+          <Route 
+            path="/contact" 
+            element={<Contact/>} 
+          />
+          <Route 
+            path="/policies" 
+            element={<Policies/>} 
+          />
+        </Routes>
+        <div className={styles.horizonte}></div>
+        <Footer />
+      </Container>
+    </Router>
   );
 }
 

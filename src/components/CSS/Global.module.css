@@ -1,0 +1,52 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Edo sz';
+    src: url('../fontes/edosz.ttf') format('truetype');
+}
+
+h1, h2, h3, h4{
+    font-family: 'Edo sz', Arial, sans-serif;
+    color: #201e1e;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    font-family: 'Edo sz', Arial, sans-serif;
+    color: #201e1e;
+}
+
+a:hover {
+    border-bottom: solid 2px #91d8f7;
+}
+
+span {
+    background-color: #fec52a;
+    padding: 4px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
