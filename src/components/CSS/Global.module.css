@@ -37,13 +37,9 @@ a {
     color: #201e1e;
 }
 
-a:hover {
-    border-bottom: solid 2px #91d8f7;
-}
-
 span {
-    background-color: #fec52a;
     padding: 4px;
+    font-family: 'Edo sz', Arial, sans-serif;
 }
 
 footer{

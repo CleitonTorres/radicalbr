@@ -40,7 +40,6 @@ function App() {
             element={<Policies/>} 
           />
         </Routes>
-        <div className={styles.horizonte}></div>
         <Footer />
       </Container>
     </Router>

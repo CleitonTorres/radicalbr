@@ -26,7 +26,7 @@ function AnimationLogo({customClass, minMax}){
     }
 
     return(
-        <section className={`${styles.container} ${styles[customClass]}`} id='logo'>
+        <div id='logo' className={`${styles.container} ${styles[customClass]}`}>
             <img 
                 src={AnimationlogoBackground} 
                 alt="RadicalBR" 
@@ -37,8 +37,8 @@ function AnimationLogo({customClass, minMax}){
                 alt="RadicalBR" 
                 className={styles.animationFrontground}
                 onClick={()=>{minMax()}}
-            />
-        </section>
+            />            
+        </div> 
     )
 }
 export default AnimationLogo;

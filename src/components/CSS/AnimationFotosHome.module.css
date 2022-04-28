@@ -1,22 +1,28 @@
 .animation_container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
+    text-align: center;
     width: 100%;
     overflow: hidden;
     z-index: 1;
 }
 .divFotos {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    margin: 10px;
+    width: auto;
+    max-width: 350px;
+    min-width: 150px;
+    max-height: 350px;
+    min-height: 150px;
+    object-fit: contain;
+    margin:0px auto;
+    padding: 10px;
 }
 
 .animationFoto01 {
-    width: 400px;
-    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     border-left-style: groove;
     border-width: 20px;
     border-color: #91d8f7;
@@ -25,8 +31,9 @@
     -webkit-border-radius: 0px 200px 0px 200px ;
 }
 .animationFoto02 {
-    width: 400px;
-    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     border-left-style: groove;
     border-width: 20px;
     border-color: #91d8f7;
@@ -35,8 +42,9 @@
     -webkit-border-radius: 200px 200px 0px 200px ;
 }
 .animationFoto03 {
-    width: 400px;
-    height: 400px;
+    max-width: 91%;
+    max-height: 91%;
+    object-fit: contain;
     border-left-style: groove;
     border-width: 20px;
     border-color: #91d8f7;
@@ -45,15 +53,17 @@
     -webkit-border-radius: 200px 0px 200px 0px ;
 }
 .animationFoto04 {
-    width: 400px;
-    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     border-radius: 200px 0px 200px 0px ;
     -moz-border-radius: 200px 0px 200px 0px ;
     -webkit-border-radius: 200px 0px 200px 0px ;
 }
 .animationFoto05 {
-    width: 400px;
-    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     border-radius: 0px 200px 0px 200px ;
     -moz-border-radius: 0px 200px 0px 200px ;
     -webkit-border-radius: 0px 200px 0px 200px ;

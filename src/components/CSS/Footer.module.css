@@ -1,9 +1,33 @@
 .footerContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100px;
     background-color: #91d8f7;
-    margin-bottom: 0;
+} 
+
+.footerContainer span {
+    font-size: 26px;
+    background-color: #f79532;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social_list li { 
+    margin: 0 1em;
+}
+
+.social_list li:hover {
+    color: #f79532;
+}
+
+.social_list svg {
+    font-size: 3em;
+    cursor: pointer;
 }

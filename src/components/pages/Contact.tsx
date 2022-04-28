@@ -21,7 +21,7 @@ function Contact(){
                 >
 
                 </textarea>
-                <input type="hidden" name="_next" value={`${process.env.REACT_APP_https}`}/>
+                <input type="hidden" name="_next" value={`${process.env.REACT_APP_httpsProduct}`}/>
                 <button type="submit">Enviar</button>
             </form> 
         </section>

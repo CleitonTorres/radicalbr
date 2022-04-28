@@ -1,0 +1,61 @@
+.content {
+    display: block;
+    width: 330px;
+    height: 180px;
+    text-align: center;
+    font-size: 26px;
+    padding: 6px;
+    border-radius: 50%;
+    transform: translateX(-797px) translateY(303px) rotate(0deg);
+    -webkit-transform: translateX(-797px) translateY(303px) rotate(0deg);
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 5;
+}
+.content > span:nth-child(1){
+    transform: translateX(0px) translateY(130px) rotate(-15deg);
+    -webkit-transform: translateX(0px) translateY(130px) rotate(-15deg);
+}
+
+.content > span:nth-child(2){
+    transform: translateX(0px) translateY(144px) rotate(-15deg);
+    -webkit-transform: translateX(0px) translateY(145px) rotate(-15deg);
+}
+.content > span:nth-child(3){
+    transform: translateX(0px) translateY(150px) rotate(-5deg);
+    -webkit-transform: translateX(0px) translateY(150px) rotate(-5deg);
+}
+.content > span:nth-child(4){
+    transform:  translateX(0px) translateY(152px) rotate(-4deg);
+    -webkit-transform: translateX(0px) translateY(152px) rotate(-4deg);
+}
+.content > span:nth-child(5){
+    transform: translateX(0px) translateY(154px) rotate(0deg);
+    -webkit-transform: translateX(0px) translateY(154px) rotate(0deg);
+}
+.content > span:nth-child(6){
+    transform: translateX(0px) translateY(153px) rotate(-8deg);
+    -webkit-transform: translateX(0px) translateY(153px) rotate(-8deg);
+}
+.content > span:nth-child(7){
+    transform: translateX(0px) translateY(150px) rotate(-6deg);
+    -webkit-transform: translateX(0px) translateY(150px) rotate(-6deg);
+}
+.content > span:nth-child(8){
+    transform: translateX(0px) translateY(142px) rotate(-16deg);
+    -webkit-transform: translateX(0px) translateY(142px) rotate(-16deg);
+}
+.content > span:nth-child(9){
+    transform: translateX(0px) translateY(133px) rotate(-4deg);
+    -webkit-transform: translateX(0px) translateY(133px) rotate(-4deg);
+}
+.content span {
+    display: inline-block;
+    background-color: transparent;
+    margin: 3px;
+}
+
+.content:hover {
+    /*border-bottom: 2px solid rgba(32, 30, 30, 1);*/
+    color: aliceblue;
+}

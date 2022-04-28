@@ -7,3 +7,8 @@
     margin-top: 56px;
     min-height: 800px;
 }
+
+.home_container h1 {
+    background-color: rgb(247, 147, 50);
+    padding: 4px;
+}

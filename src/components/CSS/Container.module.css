@@ -1,37 +1,33 @@
-.container{
-    position: relative;
-    width: 100%;
+.containerBack {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0px;
-    height: 100%;
-}
-
-.min_height{
-    min-height: 75%;
     align-items: center;
-}
-
-.maxWidth{
     width: 100%;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
+    height: 100%;
+    background-color: rgba(32, 30, 30, 1);
 
-.home{
-    align-items: center;
+}
+.container{
+    display: flex;
     flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 1600px;
+    max-width: 1600px;
+    min-width: 412px;
+}
+.home{
     padding-top: 30px;
     background-color: #f79532;
-    background-position: 600px;
-    background-size: 3000px;
-    background-image: -moz-radial-gradient(center, ellipse cover, 
+    background-size: 100%;
+    /*background-image: -moz-radial-gradient(center, ellipse cover, 
         rgba(224,219,80,1) 0%, 
         rgba(165,80,4,1) 43%, 
         rgba(160,104,56,1) 77%, 
-        rgba(219,82,48,1) 100%);
+        rgba(219,82,48,1) 100%); */
+    background-image: url('../imgs/backgrounds/porSol.png');
+    background-repeat: no-repeat;
 }
 
 .start{

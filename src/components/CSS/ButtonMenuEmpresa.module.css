@@ -1,0 +1,55 @@
+.content {
+    width: 330px;
+    height: 180px;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    padding: 6px;
+    border-radius: 50%;
+    transform: translateX(-413px) translateY(154px) rotate(-90deg);
+    -webkit-transform: translateX(-413px) translateY(154px) rotate(-90deg);
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 5;
+}
+.content > span:nth-child(1){
+    transform: translateX(0px) translateY(-3px) rotate(-15deg);
+    -webkit-transform: translateX(0px) translateY(-3px) rotate(-15deg);
+}
+
+.content > span:nth-child(2){
+    transform: translateX(0px) translateY(-11px) rotate(-15deg);
+    -webkit-transform: translateX(0px) translateY(-11px) rotate(-15deg);
+}
+.content > span:nth-child(3){
+    transform: translateX(0px) translateY(-15px) rotate(-5deg);
+    -webkit-transform: translateX(0px) translateY(-15px) rotate(-5deg);
+}
+.content > span:nth-child(4){
+    transform: translateX(0px) translateY(-16px) rotate(2deg);
+    -webkit-transform: translateX(0px) translateY(-16px) rotate(2deg);
+}
+
+.content > span:nth-child(5){
+    transform: translateX(0px) translateY(-14px) rotate(2deg);
+    -webkit-transform: translateX(0px) translateY(-14px) rotate(2deg);
+}
+.content > span:nth-child(6){
+    transform: translateX(0px) translateY(-10px) rotate(2deg);
+    -webkit-transform: translateX(0px) translateY(-10px) rotate(2deg);
+}
+.content > span:nth-child(7){
+    transform: translateX(0px) translateY(3px) rotate(2deg);
+    -webkit-transform: translateX(0px) translateY(-3px) rotate(2deg);
+}
+
+.content span {
+    display: inline-block;
+    background-color: transparent;
+    margin: 3px;
+}
+
+.content:hover {
+    /* background-color: rgba(32, 30, 30, 1); */
+    color: aliceblue;
+}
