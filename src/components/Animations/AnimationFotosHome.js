@@ -14,7 +14,7 @@ function AnimationFotosHome(){
     return(
         <section className={styles.animation_container}>
             <div className={styles.divFotos}>
-                <Link to="/company#rapel" onClick={()=>{scrollTo(60, 60)}}>
+                <Link to="/company#rapel" onClick={()=>{scrollTo(100, 100)}}>
                     <img 
                         src={foto01} 
                         alt="RadicalBR" 

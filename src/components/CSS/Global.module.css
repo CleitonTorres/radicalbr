@@ -9,7 +9,7 @@ section{
 
 @font-face {
     font-family: 'Edo sz';
-    src: url('../fontes/edosz.ttf') format('truetype');
+    src: url('../fontes/edoszB.ttf') format('truetype');
 }
 
 h1, h2, h3, h4{
