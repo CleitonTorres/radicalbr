@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/CleitonTorres/radicalbr/static/css/main.f8392acf.css",
+    "main.js": "/CleitonTorres/radicalbr/static/js/main.f21bc2de.js",
+    "static/js/787.0a9707bf.chunk.js": "/CleitonTorres/radicalbr/static/js/787.0a9707bf.chunk.js",
+    "static/media/foto02.jpg": "/CleitonTorres/radicalbr/static/media/foto02.d9578673b13428c01844.jpg",
+    "static/media/foto05.jpg": "/CleitonTorres/radicalbr/static/media/foto05.f75449cd586d2dbc49d7.jpg",
+    "static/media/foto01.jpg": "/CleitonTorres/radicalbr/static/media/foto01.7d58c7efdaceabc7ca5d.jpg",
+    "static/media/foto04.jpg": "/CleitonTorres/radicalbr/static/media/foto04.6903f958abd1dae19005.jpg",
+    "static/media/foto03.jpg": "/CleitonTorres/radicalbr/static/media/foto03.d787cb79bff734849b9c.jpg",
+    "static/media/porSol.png": "/CleitonTorres/radicalbr/static/media/porSol.991bf23d3c6cc995cec5.png",
+    "static/media/Animation_logoFrontground.png": "/CleitonTorres/radicalbr/static/media/Animation_logoFrontground.64373313b06fb0d5bb28.png",
+    "static/media/Animation_Button_Bottom-active.png": "/CleitonTorres/radicalbr/static/media/Animation_Button_Bottom-active.c549a99bb07dd04a6dba.png",
+    "static/media/Animation_Button_Right-active.png": "/CleitonTorres/radicalbr/static/media/Animation_Button_Right-active.3a65d7fb6d102c09afc5.png",
+    "static/media/Animation_Button_Left-active.png": "/CleitonTorres/radicalbr/static/media/Animation_Button_Left-active.5794e5d39860e50e3d66.png",
+    "static/media/Animation_Button_Top-active.png": "/CleitonTorres/radicalbr/static/media/Animation_Button_Top-active.7e7b9b4b8bc1d9e78861.png",
+    "static/media/Animation_Buttons.png": "/CleitonTorres/radicalbr/static/media/Animation_Buttons.0569d8d21b9dcdb49f91.png",
+    "static/media/Animation_logoBackground.png": "/CleitonTorres/radicalbr/static/media/Animation_logoBackground.d50027e1bd01567234b9.png",
+    "static/media/edoszB.ttf": "/CleitonTorres/radicalbr/static/media/edoszB.0be6a7a25374d83f251f.ttf",
+    "index.html": "/CleitonTorres/radicalbr/index.html",
+    "main.f8392acf.css.map": "/CleitonTorres/radicalbr/static/css/main.f8392acf.css.map",
+    "main.f21bc2de.js.map": "/CleitonTorres/radicalbr/static/js/main.f21bc2de.js.map",
+    "787.0a9707bf.chunk.js.map": "/CleitonTorres/radicalbr/static/js/787.0a9707bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8392acf.css",
+    "static/js/main.f21bc2de.js"
+  ]
+}
