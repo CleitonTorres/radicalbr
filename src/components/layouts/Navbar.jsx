@@ -29,10 +29,9 @@ function Navbar() {
     function btnClik(page){
         navigate(page);
         minimizeMaximize();
-    }
+    } 
 
     function hoverIn(id){
-        console.log('entrou')
         if(id === 'btnTop') {
             setCustomBtns('activeBtnTop')
         }
@@ -47,7 +46,6 @@ function Navbar() {
         }
     }
     function hoverOut(){
-        console.log('saiu')
         setCustomBtns('')
     }
     

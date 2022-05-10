@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     border-top: 2px solid #91d8f7;
     margin-top: 56px;
     z-index: 1;
@@ -22,10 +23,10 @@
     margin-bottom: 50px;
     padding: 6px;
     width: 100%;
-    height: 200px;
+    height: auto;
     background-color: rgba(32, 30, 30, 0.8);
     color: rgb(145, 216, 247);
-    border-radius: 0px 0px 200px 0px;
+    border-radius: 0px 0px 30px 0px;
     font-size: 26px;
     text-align: justify;
     -webkit-box-shadow: -10px 10px 30px 10px rgba(32,30,30,30);
@@ -44,14 +45,17 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 6px;
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: rgba(32, 30, 30, 0.8);
-    border-radius: 146px 146px 146px 146px ;
-    border-color: none;
+    border-radius: 0px 0px 0px 30px;
+    border: solid 2px #201e1e;
     color: rgb(145, 216, 247);
+    -webkit-box-shadow: -10px 10px 30px 10px rgba(32,30,30,30);
+    box-shadow: -10px 10px 30px 10px rgba(32,30,30,30);
 }
 .caixa_rapel {
     display: flex;
@@ -59,7 +63,7 @@
     justify-content: space-between;
 }
 .img_rapel {
-    width: 400px;
+    width: 100%;
     height: 100%;
     border-radius: 50%;
     -webkit-box-shadow: -10px 10px 30px 10px rgba(32,30,30,30);
@@ -77,4 +81,12 @@
 .txt_rapel label {
     border-bottom: solid 2px rgba(32, 30, 30, 0.8);
     text-align: justify;
+}
+
+@media (max-width: 590px) {
+    .company_container h1 {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    
 }

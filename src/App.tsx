@@ -24,13 +24,13 @@ function App() {
       <Container customClass="home" name="Container_App"> 
         <Navbar />
         <Routes >
+          <Route 
+            path={'/'}
+            element={<Blank />} 
+          />
           <Route
             path="/home" 
             element={<Home setHome={setHomeTo}/>} 
-          />
-          <Route 
-            path={home}
-            element={<Blank />}
           />
           <Route 
             path="/company" 
