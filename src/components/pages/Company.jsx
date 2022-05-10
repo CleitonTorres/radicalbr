@@ -1,9 +1,13 @@
+import { useEffect } from 'react';
 import styles from '../CSS/Company.module.css';
 import foto01 from '../imgs/Fotos/galeriaHome/foto01.jpg';
 import foto02 from '../imgs/Fotos/galeriaHome/foto02.jpg';
 import foto03 from '../imgs/Fotos/galeriaHome/foto03.jpg';
 
-function Company(){
+function Company({setHome}){
+    useEffect(()=>{
+        setHome('/home')
+    })
     return(
         <section className={styles.company_container}>
             <h1>Quem é a Radical BR</h1>

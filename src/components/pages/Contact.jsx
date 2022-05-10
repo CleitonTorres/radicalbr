@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import styles from '../CSS/Contact.module.css';
 
-function Contact(){
+function Contact({setHome}){
+
+    useEffect(()=>{
+        setHome('/home')
+    })
+
     return(
         <section className={styles.contact_container}>
             <h1>Fale com a gente!</h1>

@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import styles from '../CSS/Policies.module.css';
 
-function Policies(){
+function Policies({setHome}){
+    useEffect(()=>{
+        setHome('/home')
+    })
     return(
         <section className={styles.policies_container}>
             <h1>Políticas de Privacidade e Segurança</h1>

@@ -11,9 +11,14 @@ import Policies from './components/pages/Policies';
 import Navbar from './components/layouts/Navbar';
 import Blank from './components/pages/Blank';
 import Footer from './components/layouts/Footer';
+import { useState } from 'react';
 
 function App() {
+  const [home, setHome] = useState('/')
 
+  function setHomeTo(page:string){
+    setHome(page)
+  }
   return (
     <Router>
       <Container customClass="home" name="Container_App"> 
@@ -21,23 +26,23 @@ function App() {
         <Routes >
           <Route
             path="/home" 
-            element={<Home/>} 
+            element={<Home setHome={setHomeTo}/>} 
           />
           <Route 
-            path='/'
+            path={home}
             element={<Blank />}
           />
           <Route 
             path="/company" 
-            element={<Company/>} 
+            element={<Company setHome={setHomeTo}/>} 
           />
           <Route 
             path="/contact" 
-            element={<Contact/>} 
+            element={<Contact setHome={setHomeTo}/>} 
           />
           <Route 
             path="/policies" 
-            element={<Policies/>} 
+            element={<Policies setHome={setHomeTo}/>} 
           />
         </Routes>
         <Footer />
