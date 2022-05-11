@@ -11,7 +11,7 @@ function Footer (){
                 <li><FaInstagram /></li>
                 <li><FaLinkedin /></li>
             </ul>
-        </footer>
+        </footer> 
     )
 }
 export default Footer;

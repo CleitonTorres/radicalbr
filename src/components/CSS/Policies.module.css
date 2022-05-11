@@ -29,4 +29,11 @@
     .policies_container h1 {
         background-color: rgba(0, 0, 0, 0);
     }
-}
+    .policies_container .modal {
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 6px;
+        width: auto;
+        height: auto;
+    }
+} 

@@ -15,7 +15,7 @@ function Policies({setHome}){
                 </p>
                 <p>
                     1) segurança de suas atividades; <br/>
-                    2) responsabilidade socioambiental;
+                    2) responsabilidade socioambiental; <br/>
                     3) atendimento as normas legais aplicáveis. <br/>
                 </p>
                 <p>
