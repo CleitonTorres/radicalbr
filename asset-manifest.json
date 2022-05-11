@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/radicalbr/static/css/main.f1fd0126.css",
-    "main.js": "/radicalbr/static/js/main.ccc7a17a.js",
+    "main.css": "/radicalbr/static/css/main.11cefab8.css",
+    "main.js": "/radicalbr/static/js/main.c2e5a1dd.js",
     "static/js/787.0a9707bf.chunk.js": "/radicalbr/static/js/787.0a9707bf.chunk.js",
     "static/media/foto02.jpg": "/radicalbr/static/media/foto02.d9578673b13428c01844.jpg",
     "static/media/foto05.jpg": "/radicalbr/static/media/foto05.f75449cd586d2dbc49d7.jpg",
@@ -18,12 +18,12 @@
     "static/media/Animation_logoBackground.png": "/radicalbr/static/media/Animation_logoBackground.d50027e1bd01567234b9.png",
     "static/media/edoszB.ttf": "/radicalbr/static/media/edoszB.0be6a7a25374d83f251f.ttf",
     "index.html": "/radicalbr/index.html",
-    "main.f1fd0126.css.map": "/radicalbr/static/css/main.f1fd0126.css.map",
-    "main.ccc7a17a.js.map": "/radicalbr/static/js/main.ccc7a17a.js.map",
+    "main.11cefab8.css.map": "/radicalbr/static/css/main.11cefab8.css.map",
+    "main.c2e5a1dd.js.map": "/radicalbr/static/js/main.c2e5a1dd.js.map",
     "787.0a9707bf.chunk.js.map": "/radicalbr/static/js/787.0a9707bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1fd0126.css",
-    "static/js/main.ccc7a17a.js"
+    "static/css/main.11cefab8.css",
+    "static/js/main.c2e5a1dd.js"
   ]
 }
